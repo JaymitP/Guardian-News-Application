@@ -3,9 +3,11 @@ import Toolbar from "./components/Toolbar";
 import ArticleFeed from "./components/ArticleFeed";
 import styles from "../styles/Home.module.css";
 
+const API_KEY_GUARDIAN = process.env.API_KEY_GUARDIAN;
+
 export async function getServerSideProps() {
   const res = await fetch(
-    "https://content.guardianapis.com/search?api-key=test"
+    `https://content.guardianapis.com/search?api-key=${API_KEY_GUARDIAN}`
   );
   const data = await res.json();
   return {
