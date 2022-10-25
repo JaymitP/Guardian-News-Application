@@ -1,4 +1,4 @@
-ON HOLD - Following tutorials to understand best practices
+ON HOLD - Compeleting other projects
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
